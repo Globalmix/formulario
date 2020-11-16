@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Global Mix</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <form action="" class="formulario">
+      <img src="logoglobal.jpg" class="imgLogo" />
+
+      <h1 class="formulario__titulo">GLOBAL MIX</h1>
+      <h3 class="formulario__subtitulo">Cotizacion</h3>
+      <p class="formulario__parrafo">
+        Llena este pequeño formulario para ponerte en contacto con nosotros.
+      </p>
+
+      <label for="cliente" class="formulario__label">¿Indica cuál es tu nombre?</label>
+      <input
+        id="cliente"
+        type="text"
+        class="formulario__input"
+        placeholder="Indica cuál es tu nombre completo"
+      />
+      <label for="direccion" class="formulario__label">¿Cuál es la direccion de la obra?</label>
+      <input
+        id="direccion"
+        type="text"
+        class="formulario__input"
+        placeholder="Indica la direccion de la obra"
+      />
+      <label for="codigo" class="formulario__label">¿Cuentenos de que trata su obra?</label>
+      <input
+        id="codigo"
+        type="text"
+        class="formulario__input"
+        placeholder="cuentanos sobre su obra"
+        />
+
+      
+      <div id="respuesta"></div>
+
+      <button id="submit" class="formulario__submit">Enviar Solicitud</button>
+    </form>
+    <script src="js/form.js"></script>
+  </body>
+</html>
